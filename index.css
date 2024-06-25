@@ -7,6 +7,7 @@
   --cor4: #2fa866;
   --cor5: #1a5c37;
   --cor6: #063d1e;
+  --cor7: #72ca98;
 
   --font-primaria: Arial, Verdana, Helvetica, sans-serif;
   --font-destaque: "Bebas Neue", cursive;
@@ -120,6 +121,7 @@ figure {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 312px;
 }
 
 picture > img {
@@ -130,8 +132,8 @@ picture > figcaption {
   color: black;
 }
 
-.infobox {
-  background-color: #c5ebd6;
+aside {
+  background-color: var(--cor7);
   border-radius: 12px;
   box-shadow: black 0px 0px 8px 0px;
   margin: 120px 0;
@@ -159,7 +161,7 @@ picture > figcaption {
 }
 
 .infobox-content > ul > li::before {
-  content: "✔️";
+  content: "\2714\00A0\00A0";
 }
 
 footer {
