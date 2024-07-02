@@ -67,6 +67,7 @@ header > nav {
 header > nav > ul {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   margin: 0px;
 }
 
@@ -167,6 +168,18 @@ aside {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+@media (max-width: 500px) {
+  .infobox-content > ul {
+    height: 20em;
+  }
+}
+
+@media (max-width: 280px) {
+  .infobox-content > ul {
+    height: 30em;
+  }
 }
 
 .infobox-content > ul > li::before {
